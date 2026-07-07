@@ -1,0 +1,15 @@
+# Node-RED
+node_modules/
+.context/
+*.bak
+*.backup
+# Credentials (keep in repo but review carefully)
+# .config.* files are auto-generated
+.config.*
+context/
+dist-plugins/
+uploads/
+lib/
+# Python scripts (local tools)
+fix_*.py
+reflow_nodes.py
